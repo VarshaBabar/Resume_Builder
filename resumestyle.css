@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(216 247 255);
+}
+
+nav{
+    background-color: rgb(125, 213, 233);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5% 2%;
+    text-align: center;
+}
+
+#infoContainer{
+    max-width: 60%;
+    padding: 40px;
+    border: 4px solid grey;
+    border-radius: 30px;
+    background-color: rgb(183, 226, 236);
+    /* display: none; */
+}
+
+label{
+    font-size: x-large;
+}
+
+.myimg{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.background{
+    /* background-color: aqua; */
+    -webkit-print-color-adjust: exact; 
+
+}
+
+#cv-template{
+    background-color: white;
+    border: 2px solid black;
+    display: none;
+}
+
+#printBtn{
+    display: none;
+}
+
+.row{
+}
+
+.nameDetailsT{
+    font-size: larger;
+}
